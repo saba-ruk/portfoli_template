@@ -49,14 +49,12 @@ interface PortfolioData {
 }
 
 async function getPortfolioData(): Promise<PortfolioData> {
-  const response = await fetch(
-    `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/portfolio.json`,
-    { next: { revalidate: 3600 } }
-  )
-  if (!response.ok) {
-    throw new Error('Failed to fetch portfolio data')
-  }
-  return response.json()
+  const fs = await import('fs').then(m => m.promises)
+  const path = await import('path').then(m => m.default)
+  
+  const filePath = path.join(process.cwd(), 'public', 'portfolio.json')
+  const fileContent = await fs.readFile(filePath, 'utf-8')
+  return JSON.parse(fileContent)
 }
 
 export const metadata = {
