@@ -1,153 +1,112 @@
 {
   "personal": {
-    "name": "Vishwas Narayana",
-    "title": "Agentic AI Architect | Startup Scout | Technical Trainer",
-    "tagline": "Building the future of AI-driven platforms, scouting high-potential startups, and empowering engineers through mentorship and innovation.",
-    "bio": "I'm a passionate technologist with a lifelong obsession for AI, algorithms, and solving real-world problems. My journey spans AI acceleration, platform engineering, DevRel, and mentorship. I thrive at the intersection of technology, community, and innovation, with expertise in Python, C++, deep learning, and cloud-native platforms.",
-    "currentRole": "Agentic AI Architect at EnterpriseSI",
-    "currentRoleDescription": "Scouting high-potential startups for AI acceleration and reinventing enterprise AI adoption. Designing agentic AI systems to solve complex challenges and collaborating with founders to drive innovation.",
-    "email": "vishwasnarayan2345@gmail.com",
+    "name": "Saba Ruknuddin",
+    "title": "MCA Student | Data Science Enthusiast",
+    "tagline": "Exploring data-driven solutions and building intelligent applications with AI and machine learning.",
+    "bio": "I am an MCA student with a strong interest in Data Science, Artificial Intelligence, and Web Development. I enjoy analyzing data, building machine learning models, and creating user-friendly applications. I am passionate about solving real-world problems using data-driven approaches and continuously improving my technical skills.",
+    "currentRole": "MCA Student (Data Science Focus)",
+    "currentRoleDescription": "Currently pursuing MCA with a focus on Data Science, working on projects involving machine learning, data analysis, and web development.",
+    "email": "sabaruknuddin12@gmail.com",
     "location": "Bangalore, Karnataka, India"
   },
+
   "about": {
     "title": "About",
     "sections": [
-      "I'm an Agentic AI Architect, Startup Scout, and Technical Trainer with a focus on AI acceleration, platform engineering, and mentorship. My work bridges the gap between cutting-edge technology and real-world impact, from building scalable AI platforms to empowering the next generation of engineers.",
-      "With experience in startups, enterprise AI, and DevRel, I specialize in Python, C++, deep learning, and cloud-native architectures. I love tackling complex challenges and creating solutions that scale.",
-      "In my spare time, I contribute to open-source projects, host technical workshops, and explore emerging technologies like neurohacking and vector databases."
+      "I am an MCA student specializing in Data Science with a passion for turning data into meaningful insights. I enjoy working with datasets, building predictive models, and visualizing results.",
+      "My technical interests include Python programming, machine learning, and web development. I am continuously learning new tools and technologies to enhance my skills.",
+      "Apart from academics, I work on personal projects such as web applications and AI-based models, and I enjoy exploring innovative ideas in technology."
     ]
   },
+
   "experience": [
     {
-      "period": "Oct 2025 – Present",
-      "title": "Agentic AI Architect",
-      "company": "EnterpriseSI, Bangalore, India",
-      "description": "Scout and evaluate high-potential startups for AI acceleration and enterprise integration. Design and implement agentic AI systems to solve complex challenges. Collaborate with founders to reinvent AI adoption in traditional industries.",
-      "skills": ["Startup Scouting", "Agentic AI", "Python", "AI Acceleration"]
-    },
-    {
-      "period": "Sep 2025 – Present",
-      "title": "Founder",
-      "company": "OrionOps, Bangalore, India",
-      "description": "Building a cutting-edge AI and data engineering platform to empower startups. Leading product development, focusing on scalability, automation, and AI-driven insights. Mentoring engineers to foster innovation and technical excellence.",
-      "skills": ["AI Platforms", "Data Engineering", "Mentorship", "Product Development"]
-    },
-    {
-      "period": "Jun 2025 – Present",
-      "title": "MLOps Engineer",
-      "company": "Stealth Startup, Bangalore, India",
-      "description": "Develop and deploy ML pipelines for real-time inference and batch processing. Optimize model-serving infrastructure using Kubernetes, Docker, and serverless architectures. Implement CI/CD pipelines for seamless model deployment.",
-      "skills": ["MLOps", "Kubernetes", "Docker", "CI/CD"]
-    },
-    {
-      "period": "Jun 2024 – May 2025",
-      "title": "DevRel Lead",
-      "company": "Future Sense Infinity Media, Bangalore, India",
-      "description": "Led developer relations initiatives, including workshops, hackathons, and technical content creation. Bridged the gap between engineering teams and developer communities through education and advocacy.",
-      "skills": ["Developer Relations", "Community Building", "Technical Writing", "Workshops"]
+      "period": "2024 – Present",
+      "title": "Student Data Science Developer",
+      "company": "Academic & Personal Projects",
+      "description": "Working on data science and web development projects including machine learning models, data analysis, and interactive web applications. Gaining hands-on experience in real-world problem solving.",
+      "skills": ["Python", "Machine Learning", "Data Analysis", "Web Development"]
     }
   ],
+
   "projects": [
     {
       "id": 1,
-      "title": "OrionOps AI Platform",
-      "description": "A scalable AI and data engineering platform for startups, focusing on automation and AI-driven insights.",
-      "longDescription": "Founded and built OrionOps to provide startups with tools for rapid AI development and deployment. The platform integrates MLOps, data pipelines, and real-time analytics to empower engineers and data scientists.",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      "tags": ["AI", "MLOps", "Data Engineering", "Automation"],
-      "link": "https://example.com/orionops",
+      "title": "Flower Classification using CNN",
+      "description": "Deep learning model for classifying flower images.",
+      "longDescription": "Built a Convolutional Neural Network (CNN) model using TensorFlow and Keras to classify different types of flowers. Implemented image preprocessing, data augmentation, model training, and prediction using a simple web interface.",
+      "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=500&h=300&fit=crop",
+      "tags": ["Deep Learning", "CNN", "TensorFlow", "Image Classification"],
+      "link": "https://example.com/flower",
       "featured": true
     },
     {
       "id": 2,
-      "title": "BuildPiper Show",
-      "description": "Educational series on DevOps and microservices for developers.",
-      "longDescription": "Created and hosted the BuildPiper Show, featuring workshops, interviews with DevOps leaders, and tutorials to help developers master microservices, CI/CD, and cloud-native architectures.",
-      "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=500&h=300&fit=crop",
-      "tags": ["DevOps", "Microservices", "Education", "Community"],
-      "link": "https://example.com/buildpiper",
+      "title": "Blog Website",
+      "description": "Interactive blog platform with login and comments.",
+      "longDescription": "Developed a blog website with user authentication, posting, and commenting features. Focused on UI/UX and dynamic content handling using JavaScript.",
+      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&h=300&fit=crop",
+      "tags": ["Web Development", "JavaScript", "UI/UX"],
+      "link": "https://example.com/blog",
       "featured": true
-    },
-    {
-      "id": 3,
-      "title": "#proudengineer Movement",
-      "description": "Global initiative to celebrate and empower engineers through community-building and mentorship.",
-      "longDescription": "Launched the #proudengineer movement to recognize engineers worldwide. The initiative includes social campaigns, mentorship programs, and resources to support professional growth and innovation.",
-      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop",
-      "tags": ["Community", "Mentorship", "Advocacy", "Engineering"],
-      "link": "https://example.com/proudengineer",
-      "featured": false
     }
   ],
+
   "skills": [
     {
       "category": "Programming Languages",
-      "items": ["Python", "C++", "JavaScript", "Go", "SQL"]
+      "items": ["Python", "JavaScript", "C++"]
     },
     {
-      "category": "AI/ML",
-      "items": ["Deep Learning", "Computer Vision", "Neurohacking", "Graph Data Modeling", "Vector Databases"]
+      "category": "Data Science & AI",
+      "items": ["Machine Learning", "Deep Learning", "Data Analysis", "Pandas", "NumPy"]
     },
     {
-      "category": "DevOps & Cloud",
-      "items": ["Kubernetes", "Docker", "Terraform", "AWS", "GCP", "Azure", "CI/CD"]
+      "category": "Web Development",
+      "items": ["HTML", "CSS", "JavaScript"]
     },
     {
       "category": "Tools & Platforms",
-      "items": ["Git", "Apache Spark", "Airflow", "Kafka", "Figma", "Vercel"]
+      "items": ["TensorFlow", "Keras", "Git", "Jupyter Notebook", "Vercel"]
     },
     {
       "category": "Soft Skills",
-      "items": ["Startup Scouting", "Community Building", "Technical Writing", "Public Speaking", "Mentorship"]
+      "items": ["Problem Solving", "Creativity", "Communication"]
     }
   ],
+
   "education": [
     {
-      "degree": "Bachelor of Technology (BTech), Electrical, Electronics & Communications Engineering",
-      "institution": "Visvesvaraya Technological University, Bangalore, India",
-      "period": "2017–2021"
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Your College Name",
+      "period": "2023 – 2025"
     }
   ],
+
   "certifications": [
     {
-      "name": "Deep Learning Specialization",
-      "issuer": "Coursera"
+      "name": "Introduction to Data Science"
     },
     {
-      "name": "Graph Data Modeling Fundamentals"
-    },
-    {
-      "name": "Cypher Fundamentals"
-    },
-    {
-      "name": "Introduction to Vector Indexes and Unstructured Data"
+      "name": "Python for Machine Learning"
     }
   ],
+
   "social": [
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/vishwasnarayana",
+      "url": "https://linkedin.com/",
       "icon": "linkedin"
     },
     {
       "name": "GitHub",
-      "url": "https://github.com/vishwas1234567",
+      "url": "https://github.com/",
       "icon": "github"
     },
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/vishwasnarayana5",
-      "icon": "twitter"
-    },
-    {
       "name": "Email",
-      "url": "mailto:vishwasnarayan2345@gmail.com",
+      "url": "mailto:sabaruknuddin12@gmail.com",
       "icon": "mail"
-    },
-    {
-      "name": "Portfolio",
-      "url": "https://vishwasnarayan5.web.app",
-      "icon": "globe"
     }
   ]
 }
